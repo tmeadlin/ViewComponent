@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BlogViewComponent", "src\BlogViewComponent\BlogViewComponent.xproj", "{DA938F86-DB82-4E3D-A747-5B8387EED8E2}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BlogViewComponent", "BlogViewComponent\BlogViewComponent.xproj", "{6CF3B22D-0719-4C28-9102-975F9A68CEB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +18,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA938F86-DB82-4E3D-A747-5B8387EED8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA938F86-DB82-4E3D-A747-5B8387EED8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA938F86-DB82-4E3D-A747-5B8387EED8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA938F86-DB82-4E3D-A747-5B8387EED8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF3B22D-0719-4C28-9102-975F9A68CEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF3B22D-0719-4C28-9102-975F9A68CEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF3B22D-0719-4C28-9102-975F9A68CEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF3B22D-0719-4C28-9102-975F9A68CEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DA938F86-DB82-4E3D-A747-5B8387EED8E2} = {CA11027F-9B71-4F81-BD3F-C654726FE125}
+		{6CF3B22D-0719-4C28-9102-975F9A68CEB1} = {CA11027F-9B71-4F81-BD3F-C654726FE125}
 	EndGlobalSection
 EndGlobal
