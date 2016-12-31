@@ -16,7 +16,7 @@ namespace BlogViewComponent.ViewComponents
             _productManager = productManager;
         }
 
-        public async Task<IViewComponentResult> InvokeAsync(int productId)
+        public IViewComponentResult Invoke(int productId)
         {
             var productItem = _productManager.GetById(productId);
             return View(productItem);

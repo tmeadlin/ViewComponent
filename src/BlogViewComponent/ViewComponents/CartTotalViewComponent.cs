@@ -16,7 +16,7 @@ namespace BlogViewComponent.ViewComponents
             _cartManager = cartManager;
         }
 
-        public async Task<IViewComponentResult> InvokeAsync(int cartId)
+        public IViewComponentResult Invoke(int cartId)
         {
             var cartTotals = _cartManager.GetCartTotals(cartId);
             return View(cartTotals);

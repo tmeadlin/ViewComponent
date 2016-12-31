@@ -60,7 +60,7 @@ namespace BlogViewComponent
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Quick}/{action=Examples}/{id?}");
+                    template: "{controller=Naming}/{action=Conventions}/{id?}");
             });
         }
     }

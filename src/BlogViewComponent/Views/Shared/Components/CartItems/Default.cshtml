@@ -11,12 +11,6 @@
     <tbody>
         @foreach (var id in Model)
         {
-            @*<tr>
-                <td>
-                    <span>here: @id</span>
-                </td>
-            </tr>*@
-            
             @await Component.InvokeAsync("ProductItem", new { productId = id })
         }
     </tbody>
