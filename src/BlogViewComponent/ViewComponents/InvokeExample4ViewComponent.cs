@@ -9,9 +9,9 @@ namespace BlogViewComponent.ViewComponents
 {
     public class InvokeExample4ViewComponent : ViewComponent
     {
-        public IViewComponentResult Invoke(int id)
+        public IViewComponentResult Invoke(int id, bool isNew)
         {
-            return View("WithParameters");
+            return isNew ? View("WithParametersLatest") : View("WithParameters");
         }
     }
 }
